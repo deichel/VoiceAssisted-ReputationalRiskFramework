@@ -1,0 +1,77 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "reputational risk management console",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RecipeIntent",
+                    "slots": [
+                        {
+                            "name": "Item",
+                            "type": "LOCATION"
+                        }
+                    ],
+                    "samples": [
+                        "no it is {Item}",
+                        "no {Item}",
+                        "yes {Item}",
+                        "how is my {Item} today",
+                        "the {Item} is rising"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LOCATION",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "alright"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thanks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "please"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "office"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "temperature"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
